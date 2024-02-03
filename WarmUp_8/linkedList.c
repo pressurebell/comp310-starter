@@ -59,12 +59,3 @@ int main()
     print_list(&temp_node);
     printf("\n 7 deleted at index: %d", delete(&temp_node, 7));
 }
-
-node * current = head;
-    while (current->next !=NULL)
-    {
-        current = current->next;
-    }
-    node * new_node = (* node) malloc(sizeof(node));
-    current->next->data = new;
-    current->next->next = NULL;
